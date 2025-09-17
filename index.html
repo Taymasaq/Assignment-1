@@ -1,58 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Arthur Conan Doyle">
-    <meta name="description" content="An informational pro8ile about the 
-legendary detective Sherlock Holmes">
-    <meta name="keywords" content="Sherlock Holmes, detective, Arthur Conan Doyle, Baker Street, mystery, literature">
-    <title>The Mind of Sherlock Holmes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Meta info -->
+  <meta name="author" content="Your Name" />
+  <meta name="description" content="A concise profile of the legendary detective Sherlock Holmes." />
+  <meta name="keywords" content="Sherlock Holmes, Arthur Conan Doyle, Baker Street, detective, mystery, literature" />
+
+  <title>The Mind of Sherlock Holmes</title>
 </head>
 <body>
-    <header>
-        <h1>The Worlds Greatest Detecive</h1>
-        <p>Sherlock Holmes, a 8ictional detective created by Sir Arthur Conan Doyle in 1887, is one of
-the most recognized literary characters in history. Known for his sharp intellect, deductive
-reasoning, and eccentric habits, Holmes has inspired countless adaptations in literature,
-8ilm, and television.</p>
-    </header>
-    <main>
-        <section>
-            <h2>Early Life and Residence</h2>
-            <p>While Conan Doyle never revealed much about Holmes’s childhood, the detective is
-famously based at 221B Baker Street in London. He shares his residence with Dr. John
-Watson, his friend and biographer. Together, they investigate the city’s most complex crimes
-during the late Victorian and Edwardian eras.</p>
-        </section>
-        <!-- Section 2 here -->
-         <section>
-            <!-- Section 2 content here -->
-         </section>
-         <section>
-            <h2>Famous Cases</h2>
-            <ol>
-                <li>A Study in Scarlet (1887) – Holmes’s 8irst published adventure.</li>
-                <li>The Hound of the Baskervilles (1902)</li>
-            </ol>
-         </section>
-         <!-- unordered list -->
-          <section>
-            <h3>Traits and Legacy</h3>
-            <ul>
-                <li>Master of deductive reasoning</li>
-                <li>Skilled in disguise and deception</li>
-            </ul>
-          </section>
-          <!-- images section -->
-           <section>
-            <h3>Gallery</h3>
-            <img src="images/sherlock.webp" alt="">
-            <img src="images/sherlock.webp" alt="">
-           </section>
-    </main>
-    <footer>
+  <!-- This page was created for an intro HTML assignment. -->
 
-    </footer>
-</body>
-</html>
+  <header>
+    <h1>The World’s Greatest Detective</h1>
+    <p>
+      Sherlock Holmes, a <em>fictional</em> detective created by Sir Arthur Conan Doyle in 1887, is one of
+      the most recognized literary characters in history. Known for his sharp intellect, deductive
+      reasoning, and eccentric habits, Holmes has inspired countless adaptations in literature,
+      film, and television.
+    </p>
+
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#residence">Residence</a></li>
+        <li><a href="#cases">Famous Cases</a></li>
+        <li><a href="#traits">Traits & Legacy</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <section id="residence">
+        <h2>Early Life and Residence</h2>
+        <p>
+          While Conan Doyle never revealed much about Holmes’s childhood, the detective is famously based at
+          <strong>221B Baker Street</strong> in London, <abbr title="United Kingdom">UK</abbr>. He shares his residence with Dr. John
+          Watson, his friend and biographer. Together, they investigate the city’s most complex crimes during
+          the late Victorian and Edwardian eras.
+        </p>
+        <p>
+          For background on Doyle, see the
+          <a href="https://www.britannica.com/biography/Arthur-Conan-Doyle" target="_blank" rel="noopener">Encyclopaedia Britannica entry</a>.
+          You can also read many Holmes stories for free on
+          <a href="https://www.gutenberg.org/ebooks/author/69" target="_blank" rel="noopener">Project Gutenberg</a>.
+        </p>
+      </section>
+
+      <section id="cases">
+        <h2>Famous Cases</h2>
+        <ol>
+          <li><cite>A Study in Scarlet</cite> (1887) – Holmes’s first published adventure.</li>
+          <li><cite>The Sign of the Four</cite> (1890)</li>
+          <li><cite>The Adventures of Sherlock Holmes</cite> (1892)</li>
+          <li><cite>The Hound of the Baskervilles</cite> (1902)</li>
+        </ol>
+      </section>
+
+      <section id="traits">
+        <h2>Traits and Legacy</h2>
+        <h3>Core Abilities</h3>
+        <ul>
+          <li>Master of <strong>deductive reasoning</strong></li>
+          <li>Skilled in disguise and deception</li>
+          <li>Deep knowledge of chemistry, tobacco ash, and violin</li>
+        </ul>
+
+        <h3>Why Holmes Endures</h3>
+        <p>
+          Holmes represents the triumph of logic over chaos. His partnership with Watson models
+          <em>collaboration</em> and trust, and his methods continue to influence modern forensic science.
+        </p>
+        <p>
+          As Holmes says, <q>When you have eliminated the impossible, whatever remains,
+          however improbable, must be the truth.</q>
+        </p>
+      </section>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+
+        <figure>
+          <img src="images/sherlock.webp" alt="Illustration of Sherlock Holmes with deerstalker and pipe" width="480" />
+          <figcaption>Classic Holmes portrait.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://storage.googleapis.com/wp-static/thejacktherippertour.com/2017/05/Sherlock1.jpg" alt="Street sign for Baker Street in London" width="480" />
+          <figcaption>221B Baker Street, London, His magnifying glass, Hat, and pipe.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://static.the-independent.com/s3fs-public/thumbnails/image/2014/01/06/22/sherlock-bbc.jpg?quality=75&width=1368&crop=3%3A2%2Csmart&auto=webp" alt="Close-up of a violin referencing Holmes's musical hobby" width="480" />
+        </figure>
+
+      </section>
+    </article>
+  </main>
+
