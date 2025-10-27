@@ -1,0 +1,108 @@
+html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 { color: #1f2a33; }
+
+    /* Tag selectors for assignment */
+    em {
+      color: #395465;
+      font-style: italic;
+    }
+    strong {
+      color: #1f2a33;
+      font-weight: bold;
+    }
+
+    header {
+      background-color: #e3eaf2; /* Lighter blue-gray */
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav ul {
+      list-style: none;      /* Removes bullets */
+      margin: 0;
+      padding: 0;
+      display: flex;         /* Displays items side-by-side */
+      gap: 1rem;             /* Adds space between items */
+    }
+
+    nav li {
+      display: inline;       /* Ensures horizontal layout */
+    }
+
+    nav a {
+      color: #1f2a33; /* Dark text for contrast */
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      transition: background-color 0.25s ease;
+    }
+
+    nav a:hover { background-color: #b8cbe6; }
+
+    main { padding: 0 1rem; }
+    section { padding: 2rem 0; max-width: 900px; margin: 0 auto; }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #d6d6d6;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(42, 59, 71, 0.08); /* New CSS property */
+    }
+
+    .btn {
+      background-color: #2a3b47;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.6rem 1rem;
+      border-radius: 4px;
+      display: inline-block;
+      transition: background-color 0.25s ease;
+    }
+    .btn:hover { background-color: #395465; }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 1rem;
+    }
+    .gallery figure { margin: 0; }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+      border-radius: 6px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      display: block;
+    }
+    .gallery img:hover { transform: scale(1.03); }
+
+    figcaption { font-size: 0.95rem; color: #555; margin-top: 0.35rem; }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2a3b47;
+      color: white;
+    }
